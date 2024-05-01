@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(146, 131, 159);
+}
+
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    margin-left: 590px;
+    background-color: rgb(22, 58, 60);
+    color: antiquewhite;
+    border-radius: 20px;
+    
+}
+
+.status {
+    margin-top: 10px;
+    margin-left: 700px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 720px;
+    border-radius: 20px;
+    background-color: rgb(174, 230, 64);
+   
+}
